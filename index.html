@@ -10,13 +10,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="font-Nunito mx-auto">
+<body class="font-Nunito ">
 
-    <nav class="bg-white  ">
+    <nav class="bg-white p-3 ">
         <div class="container mx-auto flex items-center justify-between">
-         <img class="w-[100px]" src="./images/logo.png" alt="">
+         <img class="w-[100px] ms-5" src="./images/logo.png" alt="">
 
-         <ul class="hidden md:flex items-center space-x-16">
+         <ul class="hidden md:flex items-center space-x-16 me-5">
             <li><a class="active:bg-orange-500 " href="">Home</a></li>
             <li><a href="">Products</a></li>
             <li><a href="">Faq</a></li>
@@ -31,58 +31,49 @@
 
 
     <!-- Home -->
-     <div class="bg-[url(https://images.pexels.com/photos/19453655/pexels-photo-19453655/free-photo-of-photographer-taking-a-photo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] h-[80vh] md:h-[100vh] object-cover   ">
+     <div class="bg-white md:bg-[url(https://img.freepik.com/free-photo/spices-tomatoes-near-spaghetti-garlic_23-2147849739.jpg)] h-[80vh] md:h-[100vh] bg-cover   ">
         <div class="container mx-auto flex items-center justify-center">
+            
+
             
         <div class="text-center mt-[100px] space-y-10 ">
 
-            <p class="text-white z-10">Food App</p>
-            <h3 class="text-white text-4xl">Why Stay Hungry When <br> you can Order From Bella Onije</h3>
-            <p class="text-white">Download the Bella Onoje Food App Now</p>
+            <p class="text-black md:text-white z-10">Food App</p>
+            <h3 class=" text-black md:text-white text-3xl">Why Stay Hungry When <br> you can Order From Bella Onije</h3>
+            <p class="text-black md:text-white">Download the Bella Onoje Food App Now</p>
                
 
-            <div class="flex w-fit flex-col items-center justify-center mx-auto max-sm:space-y-5   md:flex-row space-x-5">
+            <div class="flex w-fit flex-col items-center justify-center mx-auto max-sm:space-y-5 max-md:space-y-5   md:flex-row space-x-5">
                 <a class="bg-orange-500 text-white rounded-full py-3 px-6 ms-[20px]" href="">Playstore</a>
-                <a class="bg-transparent ring-1 text-white ring-white rounded-full py-3 px-6" href="">App store</a>
+                <a class="bg-transparent ring-1 text-black md:text-white ring-black md:ring-white rounded-full py-3 px-6" href="">App store</a>
             </div>
         </div>
           
         
         </div>
-       
-        <!-- <div class="flex items-center justify-center bg-transparent absolute -bottom-[600px] right-[300px]">
-            <img class="" src="./phone img.png" alt="">
-            </div> -->
 
-            <!-- <hr class="w-full md:w-[50vw] lg:ms-[380px] lg:-mt-[150px] lg:block md:hidden "> -->
+
+       
+            
         
      </div>
 
-<div class="h-[70vh]">
-     <div class="flex items-center justify-center left-0 mx-auto absolute -bottom-[400px] md:hidden lg:block  lg:-bottom-[650px] lg:left-[400px]">
-        <img class="" src="./phone img.png" alt="">
-
+<!-- image -->
+     <div class="flex justify-center md:relative">
+        <img class="md:absolute -top-[2000px] md:-top-[300px]" src="./phone img.png" alt="">
+        <hr class="w-full ring-1 ring-black ">
         </div>
-        </div>
+        
+        
 
 
-<!-- <div class="h-[80vh] md:h-[100vh] bg-white">
-<div class="container mx-auto">
-    
-
-        <hr class="absolute w-full md:w-[30vw] md:ms-[550px] -bottom-[450px] md:-bottom-[650px] ">
-</div>
-
-</div> -->
-
-<!-- <div class="flex items-center justify-center absolute xl:-bottom-[650px] xl:right-[430px] lg:top-[550px] lg:left-[300px] md:right-[300px] md:-bottom-[400px] max-md:-bottom-[550px] max-md:left-[20px] max-sm:-bottom-[300px] max-sm:right-[50px]"></div> -->
 
     <!-- about -->
-    <div class=" ">
+    <div class="mt-[500px] ">
         <div class="container mx-auto flex flex-col items-center justify-around md:flex-row-reverse ">
             <div class="text-center md:text-start space-y-5 ">
                 <p class="text-orange-500">Create an account</p>
-                <h3 class="text-3xl">Create/Login To an existing <br> Account to get Started</h3>
+                <h3 class="text-4xl md:text-5xl">Create/Login To an existing <br> Account to get Started</h3>
                 <p>An account is created with your email and <br> a desired Password</p>
             </div>
 
@@ -99,7 +90,7 @@
         <div class="container mx-auto flex flex-col items-center justify-around md:flex-row ">
             <div class="text-center space-y-5 md:text-start">
               <p class="text-orange-500 ">Explore While Shopping</p>
-              <h3 class="text-3xl">Shop for Your Favorites meal <br> as e dey hot</h3>
+              <h3 class="text-4xl md:text-5xl">Shop for Your Favorites meal <br> as e dey hot</h3>
               <p>Shop for your Favorite meals or drinks and <br> enjoy while doing it.</p>
             </div>
 
@@ -114,7 +105,7 @@
         <div class="container mx-auto flex flex-col items-center md:flex-row justify-around">
         <div class="space-y-5 text-center md:text-start ">
             <p class="text-orange-500">Checkout</p>
-            <h3 class="text-3xl">When you done checkout and <br> get it Delivered</h3>
+            <h3 class="text-4xl md:text-5xl">When you done checkout and <br> get it Delivered</h3>
             <p>When you done checkout <br>and get it delivered with ease</p>
         </div>
 
@@ -126,7 +117,7 @@
 
 
      <div>
-        <div class="container bg-indigo-900 flex flex-col items-center justify-center space-y-5 h-[50vh] w-full ">
+        <div class="container rounded-lg bg-indigo-900 md:bg-[url(https://img.freepik.com/free-photo/spices-tomatoes-near-spaghetti-garlic_23-2147849739.jpg)] flex flex-col items-center justify-center space-y-5 h-[50vh] w-full">
             <h3 class="text-white text-3xl">Download The App now</h3>
             <p class="text-white block md:hidden">Most Calenders are designed for teams</p>
             <p class="text-white hidden md:block">Available On Your favorite store Start your premium experience</p>
@@ -135,16 +126,16 @@
                 <a class="bg-transparent px-3 py-2 rounded-lg ring-1 ring-white text-white" href="">Try for free</a>
             </div>
 
-            <div class="hidden md:block space-x-5 ">
+            <div class="hidden md:block space-x-5">
                 <a class="bg-orange-500 px-3 py-2 rounded-lg text-white" href="">Playstore</a>
                 <a class="bg-transparent px-3 py-2 rounded-lg ring-1 ring-white text-white" href="">App store</a>
             </div>
         </div>
      </div>
 
-     <footer class="bg-white p-5">
+     <footer class="bg-white p-5 overflow-hidden">
         <div class="container mx-auto flex items-center justify-around">
-          <img class="hidden md:blockw-[100px]" src="./images/logo.png" alt="">
+          <img class="hidden md:block w-[100px]" src="./images/logo.png" alt="">
           <div class="hidden md:block space-x-8 mt-2">
             <i class="fa-brands fa-twitter text-orange-500 text-2xl"></i>
             <i class="fa-brands fa-facebook text-orange-500 text-2xl"></i>
