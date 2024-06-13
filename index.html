@@ -12,7 +12,7 @@
 </head>
 <body class="font-Nunito ">
 
-    <nav class="bg-white p-3 ">
+    <nav class="bg-white p-3 fixed top-0 right-0 left-0 z-10">
         <div class="container mx-auto flex items-center justify-between">
          <img class="w-[100px] ms-5" src="./images/logo.png" alt="">
 
@@ -23,8 +23,16 @@
             <li><a href="">Contact</a></li>
          </ul>
 
-         <div class="block md:hidden">
-            <i class="fa-solid fa-bars"></i>
+
+         <ul id="navbar" class=" hidden items-center text-center rounded-b-3xl absolute top-0 p-10 bg-indigo-900 text-white space-y-10 w-full ">
+            <li><a class="active:bg-orange-500 active:py-2 active:px-3 active:rounded-lg active:text-white " href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Faq</a></li>
+            <li><a href="">Contact</a></li>
+         </ul>
+
+         <div id="menu-icon" class=" fa-solid fa-bars bg-white p-3 text-xl block md:hidden z-20">
+            
         </div>
         </div> 
     </nav>
@@ -64,6 +72,9 @@
         
         </div>
         
+        <div class="relative">
+            <hr class="absolute ">
+        </div>
         
 
 
@@ -148,10 +159,12 @@
                 <i class="fa-brands fa-facebook text-orange-500 text-2xl"></i>
                 <i class="fa-brands fa-instagram text-orange-500 text-2xl"></i>
               </div>
-              <p class="block md:hidden">Just Type whats on your mind and We'll get in touch with you. </p>
+              <p class="block text-center md:hidden">Just Type whats on your mind and We'll get in touch with you. </p>
           </div>
          
         </div>
      </footer>
+
+     <script src="index.js"></script>
 </body>
 </html>
